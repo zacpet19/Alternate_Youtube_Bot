@@ -1,12 +1,11 @@
 YouTubeBot README
 
-Overall Description: The YouTubeBot is a program that pulls Reddit posts and then uses them to create videos and upload
-them to YouTube. Most of the methods are geared towards creating YouTube shorts. The main program using Praw will pull
-Reddit posts, some of its comments, and use Selenium to screen shot the posts. Mp3 files are created using gTTS. Then
-background video and audio are formatted for YouTube shorts using the Text to Speech mp3 file(s). The screen shots of
-the posts are resized using Pillow. Then the images are turned into videos. Finally, the newly formatted mp3 and mp4
-files will be turned into a final video. All video, audio, and image to video formatting is done using MoviePy. Then
-the video is uploaded to YouTube using Selenium.
+Overall Description: For more detailed description see the regular version of YouTubeBot on my GitHub:
+https://github.com/zacpet19/YouTubeBot. This version swicthes to Python 3.10. It does this to be able to use the Librosa
+Python library. The library requires FFMPeg to be installed in order to be used. The FFMPeg website provides
+documentation on how to set it up. This version of the program uses .wav files for audio and has the ability to change
+the playback speeds and pitch of audio files. There is no differences beyond that however going forward this will likely
+become the main program.
 
 Link to YouTube channel: https://www.youtube.com/@jamesano
 Videos will look like the newer ones on this YouTube page
